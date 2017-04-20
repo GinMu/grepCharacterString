@@ -1,0 +1,30 @@
+{
+  "name": "query-character-string",
+  "version": "1.0.0",
+  "description": "query character string if existed in the specified folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rm record.txt | rm save.txt | bash excute.sh ~/workspace/trunk/moxtra/site/themes/css/moxtra-icon.html ~/workspace/queryCharacterString/record.txt ~/workspace/trunk/moxtra/site/template/ ~/workspace/queryCharacterString/save.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GinMu/queryCharacterString.git"
+  },
+  "keywords": [
+    "query",
+    "character",
+    "string",
+    "nodejs"
+  ],
+  "author": "GinMu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GinMu/queryCharacterString/issues"
+  },
+  "homepage": "https://github.com/GinMu/queryCharacterString#readme",
+  "devDependencies": {
+    "cheerio": "^0.22.0",
+    "commander": "^2.9.0"
+  }
+}
