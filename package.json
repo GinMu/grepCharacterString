@@ -1,18 +1,18 @@
 {
-  "name": "query-character-string",
+  "name": "grep-character-string",
   "version": "1.0.0",
-  "description": "query character string if existed in the specified folder",
+  "description": "grep character string if existed in the specified directory",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "rm record.txt | rm save.txt | bash excute.sh ~/workspace/trunk/moxtra/site/themes/css/moxtra-icon.html ~/workspace/queryCharacterString/record.txt ~/workspace/trunk/moxtra/site/template/ ~/workspace/queryCharacterString/save.txt"
+    "start": "rm record.txt | rm save.txt | bash excute.sh ~/workspace/trunk/moxtra/site/themes/css/moxtra-icon.html ~/workspace/grepCharacterString/record.txt ~/workspace/trunk/moxtra/site/template/ ~/workspace/grepCharacterString/save.txt"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GinMu/queryCharacterString.git"
+    "url": "git+https://github.com/GinMu/grepCharacterString.git"
   },
   "keywords": [
-    "query",
+    "grep",
     "character",
     "string",
     "nodejs"
@@ -20,9 +20,9 @@
   "author": "GinMu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GinMu/queryCharacterString/issues"
+    "url": "https://github.com/GinMu/grepCharacterString/issues"
   },
-  "homepage": "https://github.com/GinMu/queryCharacterString#readme",
+  "homepage": "https://github.com/GinMu/grepCharacterString#readme",
   "devDependencies": {
     "cheerio": "^0.22.0",
     "commander": "^2.9.0"
