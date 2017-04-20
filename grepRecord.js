@@ -1,6 +1,5 @@
 const program = require('commander');
 const fs = require('fs');
-const path = require('path');
 const readline = require('readline');
 const child_process = require('child_process');
 
@@ -12,7 +11,7 @@ program
   .option('-s, --savefile <path>', 'grep directory')
   .parse(process.argv);
 
-if (!program.record || !program.directory) {
+if (!program.record || !program.directory || !program.savefile) {
   console.log('Please import arguments');
   return;
 }
