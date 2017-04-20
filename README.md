@@ -1,5 +1,5 @@
-# queryCharacterString
-query character string if existed in the specified folder
+# grepCharacterString
+grep character string if existed in the specified directory
 
 # Build
 * npm install
